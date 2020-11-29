@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<head>
+	<style>
+		@media (max-width: 767px) {
+			.col-sm-12 {
+				width: 98%;
+				margin: 1%;
+			}
+		}
+		@media (min-width: 768px) and (max-width: 991px) {
+			.col-md-6 {
+				width: 48%;
+				margin: 1%;
+			}
+		}
+		@media (min-width: 992px) {
+			.col-lg-4 {
+				width: 31%;
+				margin: 1%;
+			}
+		}
+		h1 {
+			text-align: center;
+			font-style: italic;
+			font-size: 175%;
+		}
+		.item {
+			float: left;
+			background-color: grey;
+			border: 1px solid black;
+			padding: 5px;
+			box-sizing: border-box;
+			position: relative;
+		}
+		.itemTitle {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 40%;
+			height: 40%;
+			text-align: center;
+			border:1px solid black;
+			font-size: 125%;
+		}
+	</style>
+	<title>Menu</title>
+</head>
+
+<body>
+	<h1>Our Menu</h1>
+	<div class="col-lg-4 col-md-6 col-sm-12 item">
+		<div class="itemTitle" style="background-color: yellow">Chicken</div>
+		<div><p style="padding-top: 8px">lorem ipsum<p></div>
+	</div>
+	<div class="col-lg-4 col-md-6 col-sm-12 item">
+		<div class="itemTitle" style="background-color: pink">Beef</div>
+		<div><p style="padding-top: 8px">lorem ipsum<p></div>
+	</div>
+	<div class="col-lg-4 col-md-6 col-sm-12 item">
+		<div class="itemTitle" style="background-color: orange">Sushi</div>
+		<div><p style="padding-top: 8px">lorem ipsum<p></div>
+	</div>
+</body>
